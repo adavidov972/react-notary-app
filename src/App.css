@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.table-title:hover {
+  text-decoration: underline;
+}
+
+.floating-button {
+  position: fixed;
+  top: 75%;
+  left: 30px;
+  outline: "none";
+}
+
+@media only screen and (min-width: 500px) {
+  .floating-button {
+    display: none;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
